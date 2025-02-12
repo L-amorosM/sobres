@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #ffe5ec;
+    margin: 0;
+    padding: 0;
+    transition: filter 0.3s ease-in-out;
+}
+
+h1 {
+    color: #d63384;
+    margin-top: 20px;
+}
+
+/* Contenedor de los sobres */
+.sobres {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 sobres por fila */
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+/* Contenedor individual de cada sobre y su texto */
+.sobre-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    gap: 5px; /* Espacio entre la imagen y el texto */
+}
+
+/* Estilos de los sobres */
+.sobre {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Asegurar que la imagen del sobre está alineada */
+.sobre img {
+    width: 90px;
+    height: auto;
+    display: block;
+}
+
+/* Estilos del texto debajo del sobre */
+.sobre-contenedor p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Estilos del mensaje emergente */
+.mensaje {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 400px;
+    max-height: 80vh; /* Limita la altura al 80% de la pantalla */
+    overflow-y: auto; /* Permite hacer scroll si el contenido es muy grande */
+    z-index: 10;
+}
+
+.mensaje img{
+    width: 5px;
+}
+
+/* Botón para cerrar el mensaje */
+.cerrar {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    float: right;
+    border-radius: 5px;
+}
+
+/* Clase para aplicar desenfoque al fondo cuando el mensaje está abierto */
+.blur {
+    filter: blur(5px);
+    pointer-events: none; /* Evita interacciones con los sobres mientras está abierto el mensaje */
+}
+
+.mensaje {
+    position: fixed;
+    z-index: 100; /* Asegurar que esté por encima */
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+}

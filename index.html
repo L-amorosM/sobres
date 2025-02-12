@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ábreme cuando...</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>💌 Ábreme cuando...</h1>
+    <div class="sobres">
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('triste')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Estés triste</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('insomnio')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>No puedas dormir</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('feliz')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Estés feliz</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('aburrida')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Estés aburrida</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('insegura')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Te sientas insegura por algo</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('extrañes')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Me eches de menos</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('regla')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Tengas la regla</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('apoyo')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Necesites apoyo emocional</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('mal-dia')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Tengas un mal día</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('enojada')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Estés enfadada conmigo</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('no-hablar')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Estés triste y no quieras decirmelo</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('sorpresa')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Quieras una sorpresa</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('abrazo')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Necesites un abrazo</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('especial')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Quieras recordar lo especial que eres para mí</p>
+        </div>
+        <div class="sobre-contenedor">
+            <button class="sobre" onclick="abrirSobre('encima')"><img src="assets/sobre.png" alt="" width="90em"></button>
+            <p>Sientas que todo se te viene encima</p>
+        </div>
+    </div>
+
+    <div id="mensaje" class="mensaje">
+        <button class="cerrar" onclick="cerrarMensaje()">X</button>
+        <h2 id="titulo"></h2>
+        <p id="contenido"></p>
+        <img id="imagen" src="" alt="" style="display: none;">
+        <audio id="audio" controls style="display: none;"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
