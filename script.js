@@ -25,7 +25,7 @@ const mensajes = {
     },
     regla: {
         titulo: "Ábreme cuando tengas la regla",
-        contenido: "Sé que hoy estás más sensible y que te apetece más que nunca que estemos juntos. Como no puede ser, te tengo un pequeño detalle: abre el regalo número dos y el numero tres. 🎁 Además, quiero que pasemos tiempo juntos, aunque sea a la distancia.<br><br> ¿Qué te parece si vemos El castillo ambulante o jugamos a algo? Lo que tú prefieras, mi vida. <br><br>Te amo. 🤍"
+        contenido: "Sé que hoy estás más sensible y que te apetece más que nunca que estemos juntos. Como no puede ser, te tengo un pequeño detalle: abre el regalo número dos. 🎁 Además, quiero que pasemos tiempo juntos, aunque sea a la distancia.<br><br> ¿Qué te parece si vemos El castillo ambulante o jugamos a algo? Lo que tú prefieras, mi vida. <br><br>Te amo. 🤍"
     },
     insomnio: {
         titulo: "Ábreme cuando no puedas dormir",
@@ -39,7 +39,7 @@ const mensajes = {
     },
     "mal-dia": {
         titulo: "Ábreme cuando tengas un mal día",
-        contenido: "Si estás leyendo esto, probablemente tu día no haya sido el mejor.<br><br> Quizás algo pasó que hizo que todo se sintiera difícil, pero quiero que sepas que no estás sola. Todos tenemos esos días donde todo parece ir mal, pero estoy aquí para ti. Quiero alegrarte de alguna forma, porque sé que te lo mereces. 🌟 Abre el regalo número 4. <br><br> Sé que quizás no todo se solucione de inmediato, pero estoy aquí para lo que necesites. Si quieres hacer una videollamada, ver algo que te guste o incluso jugar un rato para distraerte y mejorar el día, no dudes en decirmelo mi amor. <br><br>Estoy aquí para para escucharte, reír juntos o simplemente estar ahí en silencio si eso es lo que necesitas.Recuerda que los malos días pasan, y que siempre puedes contar conmigo. <br><br>Te quiero mucho, y siempre estaré aquí para ti mi princesa. 🤍"
+        contenido: "Si estás leyendo esto, probablemente tu día no haya sido el mejor.<br><br> Quizás algo pasó que hizo que todo se sintiera difícil, pero quiero que sepas que no estás sola. Todos tenemos esos días donde todo parece ir mal, pero estoy aquí para ti. Quiero alegrarte de alguna forma, porque sé que te lo mereces. 🌟 Abre el regalo número 3. <br><br> Sé que quizás no todo se solucione de inmediato, pero estoy aquí para lo que necesites. Si quieres hacer una videollamada, ver algo que te guste o incluso jugar un rato para distraerte y mejorar el día, no dudes en decirmelo mi amor. <br><br>Estoy aquí para para escucharte, reír juntos o simplemente estar ahí en silencio si eso es lo que necesitas.Recuerda que los malos días pasan, y que siempre puedes contar conmigo. <br><br>Te quiero mucho, y siempre estaré aquí para ti mi princesa. 🤍"
     },
     enojada: {
         titulo: "Ábreme cuando estés enfadada conmigo",
@@ -47,7 +47,7 @@ const mensajes = {
     },
     abrazo: {
         titulo: "Ábreme cuando necesites un abrazo",
-        contenido: "Si pudiera, te daría un abrazo lleno de paz, como esos que tanto nos encantan. Pero por desgracia, no estoy ahí contigo ahora mismo.<br><br> Sin embargo, quiero ofrecerte algo: abre el regalo número 5 y hechalo en una sudadera o almohada, para que así, cuando estés cerca, sientas un poquito de mí cerca de ti. <br><br> Siempre estoy aquí para ti, incluso cuando no puedo estar físicamente. <br><br>Te amo mi amor🤍",
+        contenido: "Si pudiera, te daría un abrazo lleno de paz, como esos que tanto nos encantan. Pero por desgracia, no estoy ahí contigo ahora mismo.<br><br> Sin embargo, quiero ofrecerte algo: abre el regalo número 4 y hechalo en una sudadera o almohada, para que así, cuando estés cerca, sientas un poquito de mí cerca de ti. <br><br> Siempre estoy aquí para ti, incluso cuando no puedo estar físicamente. <br><br>Te amo mi amor🤍",
         imagen: "assets/abrazo.jpg"
     },
     especial: {
